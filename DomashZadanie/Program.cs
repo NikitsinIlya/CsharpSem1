@@ -57,3 +57,19 @@ else
     Console.WriteLine($"Число {number1} нечетное.");
 }
 */ 
+// Task 4
+// Напиши программу, которая на вход принимает число N, а на выходе показывает все четные числа от 1 до N
+
+
+Console.Write("Введите число N : ");
+    int number1 = Convert.ToInt32(Console.ReadLine());
+int m = 1;
+while(m <= number1)
+{
+    if(m % 2 == 0)
+    {
+        Console.Write($"{m} ,");
+    }
+m++;
+
+}
