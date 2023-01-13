@@ -42,3 +42,18 @@ else if (max <= number3)
 Console.WriteLine($"Максимальное число из {number1} , {number2} , {number3} Будет {max}");
 
 */
+
+// Task 3
+// Напиши программу, которая на вход принимает число и выдает, является ли число четным (делится на 2 без остатка)
+/*
+Console.Write("Введите 1-e число : ");
+    int number1 = Convert.ToInt32(Console.ReadLine());
+if (number1 % 2 == 0)
+{
+    Console.WriteLine($"Число {number1} четное.");
+}
+else
+{
+    Console.WriteLine($"Число {number1} нечетное.");
+}
+*/ 
